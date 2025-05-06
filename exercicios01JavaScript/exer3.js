@@ -4,10 +4,9 @@ let resultado3 = document.querySelector ("#resultado3");
 
 function calcularSalario(){
 
-    let salario3 = Number(precoQuilo2.value);
-    let num2 = num1 * 0.01
+    let num = Number(salario3.value);
 
-    resultado3.textContent = (salario3 + num2);
+    resultado3.textContent = num + (num *0.01);
 }
 
 btcalcular3.onclick = function(){
