@@ -10,7 +10,7 @@ function calcularmedia(){
     let n2 = Number(num2a.value);
     let n3 = Number(num3a.value);
 
-    resultado4.textContent = (n1+ n2 + n3) / 3;
+    resultado4.textContent = (n1 + n2 + n3) / 3;
 }
 
 btcalcular4.onclick = function(){
