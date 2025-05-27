@@ -9,7 +9,7 @@ let num2 = Number(valor.value);
 
  
 let resultado = num1 / num2 ; 
-resultado5.textContent = resultado + "litros"
+resultado5.textContent = resultado + " litros"
 }
 
 btcalcular5.onclick = function() {
